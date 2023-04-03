@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AlarmsScreen /> renders correctly 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "flex": 1,
+      "paddingHorizontal": 20,
+      "resizeMode": "cover",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <RNCSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+        "marginTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignContent": "space-between",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 44,
+          "justifyContent": "space-between",
+          "marginBottom": 25,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#869DB2",
+            },
+            Object {
+              "fontFamily": "Nunito_400Regular",
+              "fontSize": 28,
+            },
+            Object {
+              "color": "#CEE1F2",
+            },
+            undefined,
+          ]
+        }
+      >
+        Alarms
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "height": 44,
+            "justifyContent": "center",
+            "marginRight": -13,
+            "width": 44,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#CEE1F2",
+                "fontSize": 28,
+              },
+              undefined,
+              Object {
+                "fontFamily": "anticon",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#869DB2",
+            },
+            Object {
+              "fontFamily": "Nunito_400Regular",
+              "fontSize": 22,
+            },
+            Object {
+              "color": "#CEE1F2",
+            },
+            undefined,
+          ]
+        }
+      >
+        No alarms yet
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#3DD7F2",
+              "borderRadius": 7,
+              "flexDirection": "row",
+              "marginTop": 25,
+              "paddingHorizontal": 25,
+              "paddingLeft": 12.5,
+              "paddingRight": 12.5,
+              "paddingVertical": 13.5,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#869DB2",
+              },
+              Object {
+                "fontFamily": "Nunito_600SemiBold",
+                "fontSize": 17,
+              },
+              Object {
+                "color": "#191940",
+              },
+              Object {
+                "marginLeft": 0,
+                "marginRight": 0,
+              },
+            ]
+          }
+        >
+          Create an alarm
+        </Text>
+      </View>
+    </View>
+    <RCTScrollView
+      bounces={false}
+      collapsable={false}
+      data={Array []}
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      renderScrollComponent={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View />
+    </RCTScrollView>
+  </RNCSafeAreaView>
+</View>
+`;

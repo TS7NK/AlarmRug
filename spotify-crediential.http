@@ -1,0 +1,18 @@
+
+
+ POST https://7r7hha3pzk.execute-api.us-east-1.amazonaws.com/spotify-credential/spotify-credential HTTP/1.1
+content-type: application/json
+
+{
+  "body": {
+    "code": "",
+    "redirectUri": "https://auth.expo.io/@credwa/vivifiiy-alarm-app"
+  }
+}
+
+###
+
+GET https://api.spotify.com/v1/me/top/tracks HTTP/1.1
+content-type: application/json
+Accept: application/json
+Authorization: Bearer

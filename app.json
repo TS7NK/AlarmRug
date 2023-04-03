@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Alarm Rug",
+    "slug": "vivifiiy-alarm",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "vivifiiyalarmapp",
+    "primaryColor": "#100F62",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#100F62"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.credwa.vivifiiy-alarm-app",
+      "buildNumber": "1.0"
+    },
+    "android": {
+      "useNextNotificationsApi": true,
+      "package": "com.credwa.vivifiiyalarmapp",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}

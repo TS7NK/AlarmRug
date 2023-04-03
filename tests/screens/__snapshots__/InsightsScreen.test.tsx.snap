@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InsightsScreen /> renders correctly 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "flex": 1,
+      "paddingHorizontal": 20,
+      "resizeMode": "cover",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <RNCSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+        "marginTop": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignContent": "space-between",
+          "alignItems": "center",
+          "flexDirection": "row",
+          "height": 44,
+          "justifyContent": "space-between",
+          "marginBottom": 25,
+        }
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#869DB2",
+            },
+            Object {
+              "fontFamily": "Nunito_400Regular",
+              "fontSize": 28,
+            },
+            Object {
+              "color": "#CEE1F2",
+            },
+            undefined,
+          ]
+        }
+      >
+        Insights
+      </Text>
+    </View>
+  </RNCSafeAreaView>
+</View>
+`;
